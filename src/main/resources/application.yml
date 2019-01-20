@@ -1,0 +1,8 @@
+spring:
+  resources:
+    add-mappings: true
+    static-locations: classpath:/static/
+    chain:
+      html-application-cache: true
+      enabled: true
+      cache: true
